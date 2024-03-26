@@ -35,6 +35,7 @@ type Database = S.Schema.Type<typeof Database>;
 
 export const evolu = createEvolu(Database, {
   name: 'evoludraw',
+  reloadUrl: 'https://negue.github.io/evoludraw/',
   // syncUrl: 'http://localhost_ignore'
 });
 
